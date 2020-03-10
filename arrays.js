@@ -36,3 +36,9 @@ let pessoasCom20AnosOuMenos = arrayDeObjetos.filter(pessoa => {
   return pessoa.idade <= 20;
 });
 console.log(pessoasCom20AnosOuMenos);
+
+//Buscando um único elemento do array por uma condição
+let pessoaJoana = arrayDeObjetos.find(pessoa => {
+  return pessoa.nome === "Joana";
+});
+console.log(pessoaJoana);
